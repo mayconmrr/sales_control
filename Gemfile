@@ -18,7 +18,7 @@ gem 'rails_admin'
 gem 'devise', '~> 4.3'
 gem 'cancancan', '~> 1.15.0'
 gem 'carrierwave'
-
+gem 'rails_admin_rollincode'#, :git => 'git@github.com:mayconmrr/rollincode_custom.git'
 
 group :development, :test do 
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw] 
