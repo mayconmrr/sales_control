@@ -18,6 +18,8 @@ gem 'rails_admin'
 gem 'devise', '~> 4.3'
 gem 'cancancan', '~> 1.15.0'
 gem 'carrierwave'
+gem 'prawn-rails'
+gem 'gruff'
 gem 'rails_admin_rollincode', :git => 'https://github.com/mayconmrr/rollincode_custom.git'
 
 group :development, :test do 
